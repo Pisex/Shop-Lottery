@@ -1,0 +1,84 @@
+"Phrases"
+{ 
+	"PlayButton_Countdown"
+	{
+        "#format"   "{1:d},{2:02d}"
+        "ru"        "Запустить [{1}:{2}]"
+		"en"        "Start [{1}:{2}]"
+    }
+	"PlayButton"
+	{
+        "ru"        "Запустить"
+		"en"        "Start"
+    }
+    "ResetButton"
+    {
+        "ru"        "Сбросить КД"
+		"en"        "Сбросить КД"
+    }
+    "LotteryPlayersFew"
+    {
+        "ru"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Вам вернули ваши кредиты из-за {LIGHTRED}малого количества участников."
+		"en"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Вам вернули ваши кредиты из-за {LIGHTRED}малого количества участников."
+    }
+    "FewPlayers"
+    {
+        "ru"        "{GREEN}LOTTERY {GRAY}| {LIGHTRED}Недостаточно игроков {DEFAULT}для начала лотереи."
+		"en"        "{GREEN}LOTTERY {GRAY}| {LIGHTRED}Недостаточно игроков {DEFAULT}для начала лотереи."
+    }
+    "ResetCoolDown"
+    {
+        "ru"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Перезарядка сброшена."
+		"en"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Перезарядка сброшена."
+    }
+    "LotteryPrice"
+    {
+        "#format"   "{1:i},{2:i}"
+        "ru"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Введи сумму билета лотереи от {LIGHTOLIVE}{1} {DEFAULT}до {LIGHTGREEN}{2} кр."
+		"en"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Введи сумму билета лотереи от {LIGHTOLIVE}{1} {DEFAULT} до {LIGHTGREEN}{2} кр."
+    }
+    "LotteryPriceNoCorrect"
+    {
+        "ru"        "{GREEN}LOTTERY {GRAY}| {LIGHTRED}Ставка некорректна."
+		"en"        "{GREEN}LOTTERY {GRAY}| {LIGHTRED}Ставка некорректна."
+    }
+    "Lottery_MenuSelect"
+    {
+        "#format"   "{1:i}"
+        "ru"        "Лотерея \n \nЦена билета: {1}\nХотите ли вы принять участие?\n \n "
+		"en"        "Лотерея \n \nЦена билета: {1}\nХотите ли вы принять участие?\n \n "
+    }
+    "LotteryAccept"
+    {
+        "#format"   "{1:N},{2:i}"
+        "ru"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Игрок {LIGHTGREEN}{1} {DEFAULT}принял участие в лотерее его номер: {LIGHTGREEN}{2}"
+		"en"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Игрок {LIGHTGREEN}{1} {DEFAULT}принял участие в лотерее его номер: {LIGHTGREEN}{2}"
+    }
+    "LotteryDeny"
+    {
+        "ru"        "{GREEN}LOTTERY {GRAY}| {RED}Вы отклонили участие в лотереи"
+		"en"        "{GREEN}LOTTERY {GRAY}| {RED}Вы отклонили участие в лотереи"
+    }
+    "TimerLottery"
+    {
+        "#format"   "{1:i}"
+        "ru"        "До итогов лотереи осталось: {1} сек."
+		"en"        "До итогов лотереи осталось: {1} сек."
+    }
+    "WinLottery"
+    {
+        "#format"   "{1:N},{2:i}"
+        "ru"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Игрок {LIGHTGREEN}{1}{DEFAULT} выйграл в лотерее {LIGHTOLIVE}{2} кредитов"
+		"en"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Игрок {LIGHTGREEN}{1}{DEFAULT} выйграл в лотерее {LIGHTOLIVE}{2} кредитов"
+    }
+    "LotteryMapEnd"
+    {
+        "ru"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Вам вернули ваши кредиты т.к {LIGHTRED}карта закончилась"
+        "en"        "{GREEN}LOTTERY {GRAY}| {DEFAULT}Вам вернули ваши кредиты т.к {LIGHTRED}карта закончилась"
+    }
+    "WinLotteryPlayerLeave"
+    {
+        "ru"        "{GREEN}LOTTERY {GRAY}| {LIGHTRED}Выигравший игрок покинул сервер"
+        "en"        "{GREEN}LOTTERY {GRAY}| {LIGHTRED}Выигравший игрок покинул сервер"
+    }
+}
